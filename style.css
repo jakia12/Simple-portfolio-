@@ -1,0 +1,150 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,500&display=swap');*/
+
+
+:root {
+    --bg-dream:#32a6ef0c; ;
+    --para-color: #666;
+    --head2-color:#FFA500;
+}
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+
+h1,h2,h3,h4,a{
+    font-family: "poppins",sans-serif;
+    
+}
+
+p{
+    font-family: 'Montserrat',sans-serif;
+    font-size:16px;
+    color:var(--para-color);
+    line-height: 1.7rem;
+}
+
+.clearfix{
+    padding:50px 0;
+}
+
+.clearfix:after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.welcome-section{
+    position: relative;
+   background-image:url('images/top-banner.png');
+    background-repeat: no-repeat;
+  
+}
+
+
+.wrapper{
+    max-width:1190px;
+    width:100%;
+    margin:0 auto;
+}
+
+.row{
+    display: flex;
+   align-items:flex-start;
+   box-sizing: border-box;
+}
+
+.col-half{
+   flex:1 1 50%;
+   width:50%;
+   
+}
+
+.text-content h1{
+    font-size:43px;
+    font-weight: 600;
+   margin-bottom: 9px;
+}
+.orange-text{
+    color:var(--head2-color);
+
+}
+
+.text-content,.right-content{
+    padding:0 20px;
+}
+
+.text-content {
+    margin-top: 42px;
+}
+
+h2{
+    font-size:19px;
+    margin:13px 0
+    
+}
+
+.text-content p{
+    font-size:15px;
+    margin:8px 0;
+}
+
+.hire-btn{
+    font-size:17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding:11px 36px;
+    color:#fff;
+    text-decoration:none;
+    border-radius: 6px;
+    margin:15px 0 10px;
+    display: inline-block;
+    background-image:linear-gradient(45deg,#f88869ca,#FB6857);
+}
+
+/*********dream section************/
+.dream-section{
+    background:url('images/dream-bg.png') no-repeat right;
+    
+
+}
+
+.experience-section{
+    position: relative;
+    background: url('images/exp-bg.png') no-repeat left;
+}
+
+.exp-heading{
+position: absolute;
+left:0;
+}
+
+
+.red-border,.blue-border{
+    box-shadow:2px 5px 20px 2px rgba(221, 221, 221, 0.746);
+    padding:30px 40px;
+    margin:50px 20px;
+    box-sizing: border-box;
+
+    height:350px;
+}
+
+.red-border{
+    border-left:5px solid red;
+}
+.red-border h1,.blue-border h1{
+    font-size:37px;
+    margin:14px 0;
+    color:#191919;
+}
+
+.red-border h2,.blue-border h2{
+    color:var(--head2-color)
+}
+
+
+
